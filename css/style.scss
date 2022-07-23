@@ -1,0 +1,49 @@
+.square {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+.rectangle {
+    width: 500px;
+    height: 250px;
+    background-color: blue;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color:yellowgreen;
+}
+
+.element{
+    width: 80vh;
+    margin: auto;
+    height: calc(300px + 4rem);
+    padding: 2rem;
+
+}
+
+.controls-wrapper{
+    label:not(:first-of-type){
+        margin-left: 1rem;
+    }
+}
+
+.galery{
+    margin: auto !important;
+    width: 600px;
+    height: 300px;
+}
+
+.btns{
+    width: 80vh;
+    margin: auto;
+    button{margin: 0 1rem;}
+}
+
+.galery-wrapper{
+    height: 50vh;
+
+}
